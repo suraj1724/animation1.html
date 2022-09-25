@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* background-image: url(./images/images.jfif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-color:black;
+      
+    
+}
+.container{
+    
+
+    
+    height: 100vh;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+    
+    }
+
+    .container .bub1{
+        border: 1px;
+        border-radius: 50%;
+        background-color: aqua;
+        width: 40px;
+        height: 40px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 1s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(215, 121, 140);
+
+            
+        
+        
+       
+        
+    }
+    .container .bub2{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(0, 255, 68);
+        width: 70px;
+        height: 70px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 3s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(206, 33, 195);
+            
+
+    }
+    .container .bub3{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(200, 124, 202);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 5s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(185, 182, 96);
+    }
+    .container .bub4{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(211, 194, 37);
+        width: 30px;
+        height: 30px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 4s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(166, 119, 119);
+    }
+    .container .bub5{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(208, 26, 65);
+        width: 60px;
+        height: 60px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 6s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(139, 58, 58);
+    }
+    .container .bub6{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(26, 30, 173);
+        width: 45px;
+        height: 45px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 2s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(227, 179, 94);
+    }
+    .container .bub7{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(77, 167, 74);
+        width: 30px;
+        height: 30px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 7s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(210, 130, 130);
+    }
+    .container .bub8{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(107, 69, 131);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 3s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(255, 255, 255);
+    }
+
+    .container .bub9{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(193, 224, 51);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 7s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(192, 170, 170);
+    }
+    .container .bub10{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(107, 6, 1);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 4s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(204, 141, 141);
+    }
+    .container .bub11{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(122, 153, 29);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 4s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(100, 199, 108);
+    }
+    .container .bub12{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(107, 69,76);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 1s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(72, 149, 141);
+    }
+    .container .bub13{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(104, 99, 131);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 8s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(133, 88, 88);
+    }
+    .container .bub14{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(1,69, 131);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 7s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(221, 186, 186);
+    } 
+    .container .bub15{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(142, 38, 102);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 5s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(165, 42, 42);
+    }
+    .container .bub16{
+        border: 1px;
+        border-radius: 50%;
+        background-color: rgb(49, 138, 7);
+        width: 50px;
+        height: 50px;
+        animation-name: bubble1;
+        margin-top: -40px;
+        transition-duration: 10s;
+        animation-delay: 3s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            box-shadow: 1px 0px 35px rgb(205, 144, 144);
+    }
+    @keyframes bubble1{
+        0%{
+            transform: translateY(800px);
+           
+    }
+    5%{
+        opacity: 1%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    20%{
+        opacity: 1%;
+    }
+    30%{
+        opacity: 100%;
+    }
+    40%{
+        opacity: 1%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    60%{
+        opacity: 1%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    
+
+       
+        100%{
+            transform: translate(-40);
+        }
+    }
+    
